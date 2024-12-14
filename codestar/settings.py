@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure--b5b+hy4t8(2$yk&mq6o4y#!83g*ktvf-r=mr#k&mylttozt-o
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-jsaprah-djangoblog-ocg3olag70d.ws.codeinstitute-ide.net',
